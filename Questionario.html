@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="HojaDeEstilo.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<script type="text/javascript" defer src="Questionario.js"></script>
+	<title>Cuestionario</title>
+</head>
+<body>
+	<h1>Cuestionario Mini Proyecto</h1>
+	<p><b>1.</b>Pregunta numero uno(Selección):</p>
+	<button onclick="SelecCleaner()" id="SelecClean">Limpiar</button>
+	<button onclick="SelecComprobe()" id="SelecProve">Comprobar</button><br>
+	<input type="radio" name="Selec" id="SelecOne" onclick="selec1()" value="1">Respuesta uno</input>
+	<img id="error1" src="error.png" width="20" height="20" style="display: none">
+	<img id="tic1" src="tic.png" width="20" height="20" style="display: none">
+	<br>
+	<input type="radio" name="Selec" id="SelecTwo" onclick="selec1()" value="0">Respuesta dos</input>
+	<img id="error2" src="error.png" width="20" height="20" style="display: none">
+	<img id="tic2" src="tic.png" width="20" height="20" style="display: none">
+	<br>
+	<input type="radio" name="Selec" id="SelecThree" onclick="selec1()" value="0">Respuesta tres</input>
+	<img id="error3" src="error.png" width="20" height="20" style="display: none">
+	<img id="tic3" src="tic.png" width="20" height="20" style="display: none">
+	<br>
+	<p id="IntentosSelec">Intentos:</p>
+	<p><b>2.</b>Pregunta numero dos(True o False):</input>
+	<button onclick="BooleanCleaner()" id="BooleanClean">Limpiar</button>
+	<button onclick="BooleanComprobe()" id="BooleanProve">Comprobar</button><br>
+	<input type="radio" name="Boolean" id="BooleanOne" onclick="selec2()" value="0">Respuesta uno</input>
+	<img id="error4" src="error.png" width="20" height="20" style="display: none">
+	<img id="tic4" src="tic.png" width="20" height="20" style="display: none">
+	<br>
+	<input type="radio" name="Boolean" id="BooleanTwo" onclick="selec2()" value="1">Respuesta dos</input>
+	<img id="error5" src="error.png" width="20" height="20" style="display: none">
+	<img id="tic5" src="tic.png" width="20" height="20" style="display: none">
+	<br>
+	<p id="IntentosBoolean">Intentos:</p>
+	<p><b>3.</b>Pregunta numero tres(Desarollar):</p>
+	<button onclick="DevelopCleaner()" id="DevelopClean">Limpiar</button>
+	<button onclick="DevelopComprobe()" id="DevelopProve">Comprobar</button>
+	<textarea id="Develop" onkeypress="Vacio()"></textarea>
+	<p id="TextGood"></p>
+	<p id="Total">Total Intentos:</p>
+</body>
+</html>

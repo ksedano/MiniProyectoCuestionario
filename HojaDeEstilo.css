@@ -1,0 +1,39 @@
+body{
+	background-color: #ffffcc;
+
+}
+h1{
+	text-align: center;
+}
+
+#SelecClean{
+	position: absolute;
+	top:80px;
+	left:250px ;
+
+}
+
+#SelecProve{
+	position: absolute;
+	top:80px;
+	left: 340px;
+}
+
+#DevelopClean{
+	position: absolute;
+	top:460px;
+	left:250px ;
+
+}
+
+#DevelopProve{
+	position: absolute;
+	top:460px;
+	left:340px ;
+}
+
+input[type="radio"] {
+    -webkit-appearance: checkbox; /* Chrome, Safari, Opera */
+    -moz-appearance: checkbox;    /* Firefox */
+    -ms-appearance: checkbox;     /* IExplorer */
+}
