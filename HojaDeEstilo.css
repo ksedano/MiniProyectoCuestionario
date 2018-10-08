@@ -1,5 +1,7 @@
 body{
-	background-color: #ffffcc;
+	background-image: url("fondoweb.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
 
 }
 h1{
@@ -9,27 +11,27 @@ h1{
 #SelecClean{
 	position: absolute;
 	top:80px;
-	left:250px ;
+	left:300px ;
 
 }
 
 #SelecProve{
 	position: absolute;
 	top:80px;
-	left: 340px;
+	left: 390px;
 }
 
 #DevelopClean{
 	position: absolute;
-	top:460px;
-	left:250px ;
+	top:370px;
+	left:310px ;
 
 }
 
 #DevelopProve{
 	position: absolute;
-	top:460px;
-	left:340px ;
+	top:370px;
+	left:400px;
 }
 
 input[type="radio"] {
